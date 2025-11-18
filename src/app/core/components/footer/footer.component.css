@@ -25,6 +25,16 @@
   font-size: 0.95rem;
 }
 
+.contact-info li i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-info li i:hover {
+  color: #0d6efd; /* Change color on hover */
+  transform: scale(1.2);
+}
+
 .contact-info i {
   color: #ffc107;
 }
